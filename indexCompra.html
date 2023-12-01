@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="stylesheet" href="assets/css/estiloPizza.css">
+    <title>Los magos de la pizza</title>
+    <link rel="icon" href="MEDIA/Captura de pantalla 2023-08-02 080041.png">
+</head>
+<body>
+    <div class="contenedor">
+        <aside>
+    <header>
+      <img class="logo" src="./MEDIA/Captura de pantalla 2023-08-02 080041.png " alt="" srcset="">
+    </header>
+    <nav>
+      <ul>
+        <li>
+            <a class="boton-menu boton-volver"  href="/index.html"> 
+                <i class="bi bi-arrow-return-left"></i>Seguir comprando
+          </li>
+          <li>
+            <a class="boton-menu carrito active"  href="./pedidos.html"> 
+              <i class="bi bi-cart-fill"></i>Carro<span class="numerito">0</span></a>
+          </li>
+       
+      </ul>
+    </nav>
+    <footer>
+      <p class="texto-footer">Los magos de la pizza</p>
+    </footer>
+        </aside>
+        <main>
+    <h2 class="titulo-principal">Carro</h2>
+    <div class="contenedor-carrito">
+        <p id="carrito-vacio" class="carrito-vacio disabled">Su carro esta vacio <i class="bi bi-emoji-frown"></i></p>
+      <div id="carrito-productos" class="carrito-productos disabled">
+        
+                  </div>
+                  <div id="carrito-acciones" class="carrito-acciones">
+                    <div class="carrito-acciones-izquierda">
+                        <button id="carrito-acciones-vaciar" class="carrito-acciones-vaciar">Vaciar carro</button>
+
+                    </div>
+                    <div class="carrito-acciones-derecha">
+                        <div class="carrito-acciones-total">
+                            <p>Total</p>
+                            <p id="total"></p>
+                        </div>
+                        <button id="carrito-acciones-comprar" class="carrito-acciones-comprar">Comprar algo</button>
+                    </div>
+                  </div>
+      </div>
+      <p id="carrito-comprado" class="carrito-comprado disabled">Muchas gracia por su compra.<i class="bi bi-emoji-frown"></i></p>
+    </div>
+        </main>
+       </div>
+       <script src="assets/js/bootstrap.bundle.min.js"></script>
+       <script src="assets/js/opePedidosPizza.js"></script>
+</body>
+</html>
+

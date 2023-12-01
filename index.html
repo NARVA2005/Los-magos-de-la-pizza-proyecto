@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="stylesheet" href="assets/css/estiloPizza.css">
+<link rel="stylesheet" href="npm i bootstrap-icons">
+    <title>Los magos de la pizza</title>
+</head>
+<body>
+   <div class="contenedor">
+    <aside>
+<header>
+</header>
+<nav>
+  <ul class="menu">
+ 
+    <li>
+      <button id="todos" class="boton-menu button-categoria active"><li class="hand-index-thumb-fill"></li>Todos los productos</button>
+    </li>
+ 
+    <li>
+      <button id="pizza" class="boton-menu button-categoria"><li class="hand-index-thumb"></li>Pizza</button>
+    </li>
+    <li>
+      <button id="refresco" class="boton-menu button-categoria"><li class="hand-index-thumb"></li>Refrescos</button>
+    </li>
+    <li>
+      <button id="postre" class="boton-menu button-categoria"><li class="hand-index-thumb"></li>Postres</button>
+    </li>
+    <li>
+      <a class=" boton-menu boton-carrito active"  href="./indexCompra.html"> 
+        <i class="bi bi-cart-fill"></i>Carro<span id="numerito" class="numerito">0</span></a>
+    </li>
+  </ul>
+</nav>
+<footer>
+  <p class="TituloMenu">Los magos de la pizza</p>
+</footer>
+    </aside>
+    <main>
+<h2 class="titulo-principal" id="titulo-principal">Todos los productos</h2>
+<div id="contenedor-productos" class="contenedor-productos">
+
+</div>
+    </main>
+   </div>
+   <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="./12.Bootstrap Local/assets/js/bootstrap.bundle.js"></script>
+    <script src="assets/js/opePizzaJSON.js"></script>
+</body>
+</html>
