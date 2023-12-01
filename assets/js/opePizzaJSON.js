@@ -205,6 +205,7 @@ function actualizarBotonesAgregar(){
     boton.addEventListener("click",agregarAlCarrito);
  });
 }
+
  let productosEnCarrito; 
 let productosEnCarritoLS=localStorage.getItem("productos-en-carrito");
 
@@ -227,6 +228,7 @@ productosCarrito[index].cantidad++;
 }
 actualizarNumerito();
 localStorage.setItem("productos-en-carrito",JSON.stringify(productosCarrito));
+
 }
 function actualizarNumerito(){
     let nuevoNumerito=productosCarrito.reduce((acc,producto)=>acc+producto.cantidad,0);
