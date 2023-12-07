@@ -8,7 +8,7 @@
 :root {
   --clr-main: #000000;
   --clr-main-light: #7253eb;
-  --clr-white: rgba(89, 87, 87, 0.838);
+  --clr-white: rgba(255, 255, 11, 0.838);
   --clr-gray: #e2e2e2;
   --clr-red: #961818;
 }
@@ -107,7 +107,7 @@ aside {
   font-size: 1.85rem;
 }
 main {
-  background-color: var(--clr-white);
+  background-color: var(--clr-gray);
   margin: 1rem;
   border-radius: 2rem;
   padding: 2rem;
@@ -141,7 +141,7 @@ main {
 }
 .producto-agregar {
   border: 0;
-  background-color: var(--clr-white);
+  background-color: var(--clr-red);
   color: var(--clr-main);
   padding: 0.25rem;
   text-transform: uppercase;
@@ -199,7 +199,7 @@ main {
 }
 .carrito-acciones-vaciar {
   border: 0;
-  background-color: var(--clr-gray);
+  background-color: var(--clr-red);
   padding: 1rem;
   border-radius: 1rem;
   color: var(--clr-main);
@@ -237,7 +237,7 @@ main {
 }
 .numerito {
   background-color: var(black);
-  color: var(--clr-gray);
+  color: var(--clr-main);
   padding: 0.15rem 0.25rem;
   border-radius: 0.25rem;
 }
